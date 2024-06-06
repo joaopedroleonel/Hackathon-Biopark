@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+header {
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C2D3B;
+    padding: 1rem;
+}
+
+.ativo{ 
+    background: linear-gradient(to right, #EA0044 30%, transparent 30%);
+    background-color: #EA0044;
+    padding: 0.4em;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+
+.menu-item {
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.corpo-item{
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0.8em;
+    text-decoration: none;
+    color:white;
+}
+
+.titulo-atuacao{
+    text-align: center;
+    border-radius: 2rem;
+    margin: 2em;
+    text-decoration: none;
+    color:black;
+
+
+}
+
+
+section {
+    display: flex;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.esquerda {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.right {
+    flex-direction: column;
+    width: 75%;
+}
+
+.right .box {
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2d3b;
+    background-image: linear-gradient(180deg, #1c2d3b 0%, #000000 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+    width: 100%;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape img{
+    width: 10%;
+}
+
+
+.rodape-contato {
+    margin-left: 4rem;
+}
+
+.navbar img {
+    width: 15%;
+}
+
+.textobox{
+    color: red;
+
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;/*Permite que os itens quebrem para a proxima linha*/
+    justify-content: center;
+    gap: 20px;/*define o espaçamento entre os itens*/
+    padding: 20px;
+    background:whitesmoke;
+}
+div.products{
+max-width: 300px;
+text-align: center;
+padding: 20px;
+border: 1px solid #ccc;/*Define a borda tamanho da borda, e a cor da borda*/
+border-radius: 10px;/*Cantos arrendondados*/
+background: whitesmoke;
+}
+
+.titulo-area{
+    color:red;
+    text-align: center;
+    margin: 10px;
+    
+}

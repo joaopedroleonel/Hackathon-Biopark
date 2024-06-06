@@ -1,0 +1,380 @@
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c2d3b;
+    background-image: linear-gradient(180deg, #1c2d3b 0%, #000000 100%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+    width: 100%;
+
+}
+
+footer p {
+        text-align: left; /* Alinha o texto à esquerda */
+}
+
+.menu_nav {
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    text-align: right; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background-color: #1C2D3B;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+
+    footer div {
+        margin-top: 20px; 
+    }
+
+    .section_space_type_1 {
+        background-color: #333;
+    }
+
+    .section_space_type_2 {
+        color: #fff;
+        padding: 10px;
+        background-color: #1C2D3B;
+    }
+
+    .home_header {
+        display: flex;
+        align-items: center; 
+    }
+
+    .home_header img {
+        margin-right: 20px; 
+    }
+
+    .navbar{
+        background-color: #1C2D3B;
+        padding: 1rem;
+    }
+
+.menu-item{
+    margin: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.rodape{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item img{
+
+    border-radius: 0px;
+
+}
+
+.rodape-contato {
+    margin-left: 4rem;
+}
+
+.ativo {
+    background-color: #EA0044;
+    padding: 0.4em;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.realizar-login{
+    background-color: #EA0044;
+    padding: 0.7em;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    appearance: none;
+    margin-top: 3rem;
+    border: 0;
+    color: white;
+}
+
+.dash {
+    background-color: #EA0044;
+    padding: 0.7em;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    appearance: none;
+    border: 0;
+    color: white;
+}
+
+footer img{
+    width: 20%;
+}
+
+.form-control{
+    border-radius: 5rem;
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    color: white;
+}
+
+.login-text{
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.card{
+    padding: 2rem;
+    background-color: #1C2D3B;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.form input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.login .card{
+    border-radius: 5rem;
+    padding-top: 3rem; 
+    padding-top: 3rem;
+}
+
+.navbar img{
+    width: 15%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .rodape-contato{
+        font-size: x-small;
+        margin-left: 2rem;
+        margin-top: 0px;
+    }
+    .login .card{
+        margin: 20px;
+        border-radius: 3rem;
+    }
+    .login{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .realizar-login {
+        margin-top: 0px;
+    }
+    .login-text {
+        margin-bottom: 0px;
+    }
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    a {
+        font-size: small;
+    }
+    .navbar img {
+        width: 25%;
+    }
+    .left-container p {
+        font-size: medium;
+    }
+    .middle-container {
+        display: none;
+    }
+}
+
+.FTitulo{
+    border-color: #000000;
+    color: black;
+    font-size:35px;
+    text-align: center;
+}
+.geral{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+.button{
+    margin-left: 50px;
+}
+.fundobranco{
+    color: #fff;
+    background-color: #000000;
+}
+.engbio{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+.farmacia{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+.TI{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+.TECenferm{
+    margin: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+}
+.forum{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    border: 1px black solid;
+    border-radius: 15px;
+    height: 100%;
+    margin-top: 20px;
+    padding: none;
+    --bs-gutter-x:0;
+  }
+  
+  .left-container{
+    flex: 1;
+    color: white; /* Cor do texto */
+    padding: 30px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: left;
+    margin: none;
+    justify-content: center;
+
+   
+  }
+  
+  .middle-container{
+    flex: 1;
+    background-color: #ffffff; /* Cor de fundo branca */
+  }
+  
+  .right-container{
+    margin: 20px;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #EA0044;
+    color: white;
+    font-size: 22px;
+
+    text-align:center;
+    flex: 1;
+    background-color: #ffffff; /* Cor de fundo branca */
+    display:flex;
+    justify-content:center; /*Centralizar o botão horizontalmente */
+    align-items:center; /*Centralizar o botão verticalmente */
+  }
+  
+  .containerNulo{
+    display: flex;
+
+    height: 100%;
+    margin-top: 20px;
+    padding: none;
+    --bs-gutter-x:0;
+  }
+  
+  .leftcontainer{
+    flex: 1;
+    color: white; /* Cor do texto */
+    padding: 30px;
+    background-color: white;
+    color: white;
+    font-size: 22px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: left;
+    margin: none;
+    justify-content: center;
+
+   
+  }
+  
+  .middlecontainer{
+    flex: 1;
+    background-color: #ffffff; /* Cor de fundo branca */
+  }
+  
+  .rightcontainer{
+    margin: 20px;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: white;
+    color: white;
+    font-size: 22px;
+
+    text-align: center;
+    flex: 1;
+    background-color: #ffffff; /* Cor de fundo branca */
+    display: flex;
+    justify-content: center; /*Centralizar o botão horizontalmente */
+    align-items: center; /*Centralizar o botão verticalmente */
+  }
+  
+
+  button{
+    padding: 0px 12px;
+    background-color: #1C2D3B; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover a borda do botão */
+    border-radius: 25px; /* Borda arredondada do botão */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+  }
+  
+  button:hover{
+    background-color:#1C2D3B;
+  }  
